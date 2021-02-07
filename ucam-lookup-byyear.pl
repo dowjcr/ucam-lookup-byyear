@@ -69,6 +69,11 @@ for my $crsid (@crsids) {
 		}
 	}
 
+	# Remove any commas in case someone added one to their name
+	for my $ref (\$firstname, \$lastname) {
+		${$ref} =~ s/,//g;
+	}
+
 	$firstname = "" unless defined $firstname;
 	die "bad vcard for $crsid" unless defined $lastname && defined $matric_year;
 
