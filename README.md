@@ -11,7 +11,7 @@ for the [Downing JCR Room Ballot](https://github.com/dowjcr/roomsurvey). This sc
 Using `cpanminus`:
 
 ```
-cpanm --installdeps .
+cpanm --sudo --installdeps .
 ```
 
 ## Example usage
