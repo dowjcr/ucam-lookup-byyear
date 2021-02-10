@@ -37,8 +37,11 @@ choose `Copy as cURL`. Paste the output into your favourite text editor, and cop
 
 ## Output format
 
+**You are looking at the `octobercms` branch, which outputs data in the right format for importing to the
+OctoberCMS database.**
+
 ```
-crsid,first name,last name,year
+email,username,name,password,is_activated
 ```
 
 ## Author

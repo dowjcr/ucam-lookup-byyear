@@ -79,5 +79,5 @@ for my $crsid (@crsids) {
 
 	next unless exists $years{$matric_year};
 
-	say join ",", ($crsid, $firstname, $lastname, $years{$matric_year});
+	say join ",", ("$crsid\@cam.ac.uk", "$crsid\@cam.ac.uk", "$firstname $lastname", "", "1");
 }
